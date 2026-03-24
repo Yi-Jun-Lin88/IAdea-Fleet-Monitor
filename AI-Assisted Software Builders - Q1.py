@@ -7,7 +7,7 @@ st.set_page_config(page_title="IAdea Fleet Monitor", layout="wide")
 st.title("📊 IAdea Device Fleet Dashboard")
 st.write("即時監控全方位設備狀態")
 
-# CSV 網址（替換成你從 Google Sheets 取得的連結）
+# CSV 網址
 CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRCoE7I08iRza6QrUuyDNqA6FFnCuuANjsBf6hogreujMgtZtPld4kichpuA-S592Gw2erVx5xLRCuR/pub?output=csv"
 
 def load_data():
