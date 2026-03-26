@@ -18,6 +18,9 @@ This project is a real-time data dashboard built for the **IAdea AI-Assisted Sof
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the app: `streamlit run app.py`
 
+This project is hosted on **Streamlit**. 
+Live Demo: [[My Streamlit URL]](https://iadea-fleet-monitor-5ztlqfzqmruymgczycfsvu.streamlit.app/)
+
 ## 🤖 AI-Assisted Troubleshooting
 - Successfully resolved `SSLCertVerificationError` by implementing a custom request handler with `verify=False` and warning suppression.
 - Refactored deprecated Pandas syntax from `applymap` to `map` for future-proof compatibility.
